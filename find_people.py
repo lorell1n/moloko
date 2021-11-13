@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('images/5.jpg')
+img = cv2.imread('images/2.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces = cv2.CascadeClassifier('people_body.xml')
